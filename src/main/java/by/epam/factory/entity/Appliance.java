@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.Getter;
 
 @Data
-public abstract class Appliance {
+public abstract class Appliance implements AbstractAppliance {
     @Getter
     protected int powerConsumption;
 

@@ -2,7 +2,7 @@ package by.epam.factory.entity;
 
 import lombok.Getter;
 
-public class AbstractPC implements AbstractAppliance {
+public abstract class AbstractPC implements AbstractAppliance {
     @Getter
     protected final double batteryCapacity;
     @Getter
