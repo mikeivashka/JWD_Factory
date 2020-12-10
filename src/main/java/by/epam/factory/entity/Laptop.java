@@ -1,8 +1,10 @@
 package by.epam.factory.entity;
 
 import by.epam.factory.enumerations.OperatingSystem;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
+@EqualsAndHashCode(callSuper = true)
 public class Laptop extends AbstractPC {
     @Getter
     protected final OperatingSystem operatingSystem;

@@ -1,9 +1,11 @@
 package by.epam.factory.entity;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
 import java.awt.*;
 
+@EqualsAndHashCode(callSuper = true)
 public class TabletPC extends AbstractPC {
     @Getter
     private final int flashMemoryCapacity;

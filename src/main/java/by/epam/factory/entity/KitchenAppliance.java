@@ -1,7 +1,9 @@
 package by.epam.factory.entity;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
+@EqualsAndHashCode(callSuper = true)
 public abstract class KitchenAppliance extends Appliance {
     @Getter
     protected final int weight;

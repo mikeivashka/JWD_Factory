@@ -1,8 +1,9 @@
 package by.epam.factory.entity;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
-
+@EqualsAndHashCode(callSuper = true)
 public class Oven extends KitchenAppliance {
     @Getter
     private final int capacity;
