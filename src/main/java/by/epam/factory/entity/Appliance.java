@@ -1,9 +1,10 @@
 package by.epam.factory.entity;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
-@Data
+@EqualsAndHashCode
 public abstract class Appliance implements AbstractAppliance {
     @Getter
     protected int powerConsumption;
